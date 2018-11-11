@@ -31,7 +31,7 @@ module.exports = (appleObjects,input) => {
     .waitForElementPresent('@continueToPayment',5000)
     .click('@continueToPayment')
  appleObjects
-    .expect.element('#rs-checkout-header').to.be.present;
+    // .expect.element('#rs-checkout-header').to.be.present;
 
 
 }
