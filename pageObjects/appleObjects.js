@@ -23,8 +23,6 @@ module.exports = {
         reviewBag: 'button[class="merchandising button"]',
         checkOut: 'button[id="shoppingCart.actions.checkout"]',
         guestCheckout: '#guest-checkout',
-        // zipCode: 'div[class="form-element"]',
-        // applyZip: 'button[data-autom="checkout-zipcode-apply"]',
         continueToShipping: 'button[data-autom="continue-button-label"]',
         firstName: 'input[id="checkout.shipping.addressSelector.newAddress.address.firstName"]',
         lastName: 'input[id="checkout.shipping.addressSelector.newAddress.address.lastName"]',

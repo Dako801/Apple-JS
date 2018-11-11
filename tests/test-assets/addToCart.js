@@ -25,13 +25,13 @@ module.exports = (appleObjects,input) => {
     .setValue('@firstName',input.firstName)
     .setValue('@lastName',input.lastName)
     .setValue('@street',input.street)
-    // .waitForElementPresent('@email',5000)
+    .waitForElementPresent('@email',5000)
     .setValue('@email',input.email)
     .setValue('@phone',input.phone)
     .waitForElementPresent('@continueToPayment',5000)
     .click('@continueToPayment')
  appleObjects
-    // .expect.element('#rs-checkout-header').to.be.present;
+    .expect.element('#rs-checkout-header').to.be.present;
 
 
 }
